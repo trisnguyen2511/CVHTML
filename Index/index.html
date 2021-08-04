@@ -32,7 +32,7 @@
 	<!-- Favicon  -->
     <link rel="icon" href="images/favicon.png">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body onload="ageCalculator()" data-spy="scroll" data-target=".fixed-top">
     
     <!-- Preloader -->
 	<div class="spinner-wrapper">
@@ -67,6 +67,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#intro">INTRO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#services">DAYNIGHT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link page-scroll" href="#callMe">CALL ME</a>
@@ -133,12 +136,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <div class="text-container">
+                    <div class="text-container" style="margin-top: 0px;">
                         <div class="section-title">INTRO</div>
-                        <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
-                        <p>Launching a new company or developing the market position of an existing one can be quite an overwhelming processs at times.</p>
-                        <p class="testimonial-text">"Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting and growing companies."</p>
-                        <div class="testimonial-author">Louise Donovan - CEO</div>
+                        <h2>Nguyễn Hoàng Trí</h2>
+                        <p>I'm 
+                            <span id="result" align="center"></span> 
+                            years old boy who love to learn new things,
+                            travel and explore myself
+                        </p>
+                        <p>
+                            I have been to many places in Viet Nam as that way my motivation- go new place, make friends with new people, have new friends and do meaningful things. I am young, energetic but somehow hardheaded.
+                        </p>
+                        <p>
+                            I intend to become a programmer to create any application that helpful and increase speed of modernization process
+                        </p>
+                        <p class="testimonial-text">"However, that is me, and myself."</p>
+                        <div class="testimonial-author">HUTECH - Student - Information of Technology</div>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
                 <div class="col-lg-7">
@@ -211,6 +224,17 @@
     
 
     <!-- Details 1 -->
+    <div id="services" class="cards-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">SERVICES</div>
+                    <h2>Who I Am<br>At Day And Night</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div>
+    </div>
+    
 	<div id="details" class="accordion">
 		<div class="area-1">
 		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
@@ -393,6 +417,9 @@
 
 
     <!-- Call Me -->
+    <div id="callMe" class="form-1">
+
+    </div>
     <!-- end of call me -->
 
 
@@ -489,6 +516,9 @@
     </div> <!-- end of copyright --> 
     <!-- end of copyright -->
     
+    <script>
+        
+    </script>
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
