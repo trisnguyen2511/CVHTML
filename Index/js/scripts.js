@@ -407,78 +407,78 @@ var playerTrack = $("#player-track");
         artist: "Tris",
         name: "3.1.0.7 2(Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/3.1.0.7%202%20guitar%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     }, {
         artist: "Tris",
         name: "3.1.0.7 Rap (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/3.1.0.7%20rap%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Cha già rồi đúng không (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Cha%20già%20rồi%20đúng%20không%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Chuyện của mùa đông (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Chuyện%20của%20mùa%20đông%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Chạm đáy nỗi đau (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Chạm%20đáy%20nỗi%20đau%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Cơn mơ băng giá (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Cơn%20mơ%20băng%20giá%20guitar%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Gió vẫn hát (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Gió%20vẫn%20hát%20guitar%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Hết thương cạn nhớ (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Hết%20thương%20cạn%20nhớ%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Muộn màng là từ lúc (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Muộn%20màng%20là%20từ%20lúc%20beat%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Mình chia tay đi (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Mình%20chia%20tay%20đi%20guitar%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Người ta nói (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Người%20ta%20nói%20Tris.wav",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Năm ấy (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Năm%20ấy%20Tris.mp3",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Updating",
         url: "https://trisnguyen2511",
-        picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     }
 
     
