@@ -406,19 +406,19 @@ var playerTrack = $("#player-track");
     var songs = [{
         artist: "Tris",
         name: "3.1.0.7 2(Cover)",
-        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Songs/3.1.0.7%202%20guitar%20Tris.wav",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/3.1.0.7%202%20guitar%20Tris.wav",
         picture: "images/5fc779186aa1140014eda0ae.png"
     }, {
         artist: "Tris",
         name: "3.1.0.7 Rap (Cover)",
-        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Songs/3.1.0.7%20rap%20Tris.wav",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/3.1.0.7%20rap%20Tris.wav",
         picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
         name: "Cha già rồi đúng không (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Songs/Cha%20già%20rồi%20đúng%20không%20Tris.wav",
-        picture: "images/5fc779186aa1140014eda0ae.png"
+        picture: "images/5fc779186aa1140014eda0ae.pn"
     },
     {
         artist: "Tris",
