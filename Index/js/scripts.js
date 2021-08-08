@@ -418,7 +418,7 @@ var playerTrack = $("#player-track");
         artist: "Tris",
         name: "Cha già rồi đúng không (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Songs/Cha%20già%20rồi%20đúng%20không%20Tris.wav",
-        picture: "images/5fc779186aa1140014eda0ae.pn"
+        picture: "images/5fc779186aa1140014eda0ae.png"
     },
     {
         artist: "Tris",
