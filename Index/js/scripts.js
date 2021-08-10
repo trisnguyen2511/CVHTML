@@ -473,7 +473,68 @@ var playerTrack = $("#player-track");
         name: "Năm ấy (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Songs/Năm%20ấy%20Tris.mp3",
         picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Nợ ai đó lời xin lỗi (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Nợ%20ai%20đó%20lời%20xin%20lỗi%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Sài Gòn đau lòng quá (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Sài%20Gòn%20đau%20lòng%20quá%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Sài Gòn đau lòng quá rap (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Sài%20Gòn%20đau%20lòng%20quá%20rap%20Tris%20.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Tình nào không như tình đầu (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Tình%20nào%20không%20như%20tình%20đầu%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Yêu như ngày yêu cuối (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Yêu%20như%20ngày%20yêu%20cuối%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Yêu được không (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Yêu%20được%20không%20Tris.mp3",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Đau để trưởng thành (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Đau%20để%20trưởng%20thành%20guitar%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Đường em đi anh sẽ đi ngược lại (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Đường%20em%20đi%20anh%20sẽ%20đi%20ngược%20lại%20guitar%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "3.1.0.7 3 (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/3.1.0.7%203%20guitar%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Vỡ (Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Vỡ%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
     }
+    
 
     
     ];

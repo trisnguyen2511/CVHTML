@@ -1123,7 +1123,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-1 .progress-bar.second {
-	width: 75%;
+	width: 65%;
 }
 
 .tabs #tab-1 .progress-bar.third {
@@ -2132,9 +2132,10 @@ a:hover.back-to-top {
 	}
 	
 	.accordion .area-1 {
-		width: 50%;
+		width: 48%;
 		height: 100%;
 		display: inline-block;
+		margin-left: 2%;
 	}
 	
 	.accordion .area-2 {
@@ -2169,9 +2170,10 @@ a:hover.back-to-top {
 	}
 
 	.tabs .area-2 {
-		width: 50%;
+		width: 48%;
 		height: 100%;
 		display: inline-block;
+		margin-right: 2%;
 	}
 
 	.tabs .tabs-container {
@@ -2326,16 +2328,16 @@ a:hover.back-to-top {
 
 	/* Details 1 */
 	.accordion .accordion-container {
-		max-width: 28rem;
-		margin-left: 5rem;
+		max-width: 40rem;
+		margin-left: 7rem;
 	}
 	/* end of details 1 */
 
 
 	/* Details 2 */
 	.tabs .tabs-container {
-		max-width: 28rem;
-		margin-right: 5rem;
+		max-width: 40rem;
+		/* margin-right: 5rem; */
 		margin-left: auto;
 	}
 
