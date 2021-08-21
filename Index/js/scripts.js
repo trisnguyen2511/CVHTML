@@ -533,8 +533,13 @@ var playerTrack = $("#player-track");
         name: "Vỡ (Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Songs/Vỡ%20Tris.wav",
         picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Cuộc sống em ổn không(Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Cuộc%20sống%20em%20ổn%20không%20beat.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
     }
-    
 
     
     ];
