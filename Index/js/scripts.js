@@ -539,6 +539,30 @@ var playerTrack = $("#player-track");
         name: "Cuộc sống em ổn không(Cover)",
         url: "https://trisnguyen2511.github.io/CVHTML/Songs/Cuộc%20sống%20em%20ổn%20không%20beat.wav",
         picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Thương(Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Thương%20Tris.mp3",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Thay tôi yêu cô ấy(Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Thay%20tôi%20yêu%20cô%20ấy%20Tris.mp3",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Phố xa(Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/Phố%20xa%20Tris.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
+    },
+    {
+        artist: "Tris",
+        name: "Uớc có người bên tôi mỗi khi buồn(Cover)",
+        url: "https://trisnguyen2511.github.io/CVHTML/Songs/ước%20có%20người%20bên%20tôi%20mỗi%20khi%20buồn%20guitar.wav",
+        picture: "images/5fc779186aa1140014eda0ae.png"
     }
 
     
