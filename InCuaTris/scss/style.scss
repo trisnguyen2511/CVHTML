@@ -282,8 +282,9 @@ $border-width: 2px;
         position: absolute;
         top: calc(50% - 10px);
         left: calc(50% - 8px);
-        color: $primary;
+        // color: $primary;
         z-index: 2;
+        color: blue;
     }
 }
 
