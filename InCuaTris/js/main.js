@@ -155,7 +155,6 @@ function dayDating() {
 
   // To calculate the no. of days between two dates
   var Difference_In_Days = Difference_In_Time / (1000 * 3600 * 24)
-
   return (document.getElementById("timeDated").innerHTML =
-    Math.floor(Difference_In_Days))
+    Math.floor(Difference_In_Days) + " days")
 }
