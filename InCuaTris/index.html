@@ -21,10 +21,14 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,700'>
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     <link href="scss/heart.css" rel="stylesheet">
+    <link href="scss/hidden.css" rel="stylesheet">
+    <link href="scss/content_hidden.css" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51" onload="nowTime(); dayDating()">
@@ -40,17 +44,18 @@
             <div class="navbar-nav ml-auto py-0">
                 <a href="#home" class="nav-item nav-link active">Home</a>
                 <!-- <a href="#about" class="nav-item nav-link">About</a> -->
-                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+                <a href="#story" class="nav-item nav-link">Story</a>
             </div>
             <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
                 <h1 class="font-secondary text-white mb-n2">Tris <span class="text-primary">&</span> Ín</h1>
             </a>
             <div class="navbar-nav mr-auto py-0">
-                <a href="#story" class="nav-item nav-link">Story</a>
+                <a href="#count" class="nav-item nav-link">Heart</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
                 <!-- <a href="#family" class="nav-item nav-link">Family</a> -->
-                <a href="#event" class="nav-item nav-link">Event</a>
+                <!-- <a href="#event" class="nav-item nav-link">Event</a>
                 <a href="#rsvp" class="nav-item nav-link">RSVP</a>
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a> -->
             </div>
         </div>
     </nav>
@@ -366,9 +371,67 @@
     </div>
     <!-- Gallery End -->
 
+    <!-- Chat Start -->
+    <div id="Chat">
+        <div class="section-title position-relative text-center">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">A Little Kute</h6>
+            <h1 class="font-secondary display-4">A Little Chat</h1>
+            <i class="far fa-heart text-dark"></i>
+        </div>
+        <div style="text-align: center;" id="password" >
+            <!-- <input type="text" id="password"> -->
+            <input id="password" class="codeInput" type="text" placeholder="Code">
+            <br>
+            <input id="button" type="button" value="Login" style="display: none;">
+            <div id="HIDDENDIV" class="hidden">            
+                <div class="container">
+                    <div class="content container-fluid bootstrap snippets bootdey">
+                      <div class="row row-broken">
+                        <div class="col-sm-12 col-xs-12 chat" style="overflow: hidden; outline: none;" tabindex="5001">
+                          <div class="col-inside-lg decor-default">
+                            <div class="chat-body">
+                              <div class="answer left">
+                                <div class="avatar">
+                                  <img src="img/avataIn.jpg" alt="User name">
+                                  <div class="status online"></div>
+                                </div>
+                                <div class="name">Ín Của Tris 💙</div>
+                                <div class="text">
+                                  Lorem ipsum dolor amet, consectetur adipisicing elit Lorem ipsum dolor amet, consectetur adipisicing elit Lorem ipsum dolor amet, consectetur adiping elit
+                                </div>
+                              </div>
+                              <div class="answer right">
+                                <div class="avatar">
+                                  <img src="img/avataTris.jpg" alt="User name">
+                                  <div class="status online"></div>
+                                </div>
+                                <div class="name">Tris của Ín 💙🙆‍♀️</div>
+                                <div class="text">
+                                  Lorem ipsum dolor amet, consectetur adipisicing elit Lorem ipsum dolor amet, consectetur adipisicing elit Lorem ipsum dolor amet, consectetur adiping elit
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <!-- <div class="box">
+            <span style=" position: absolute; margin-top: 204px; width: 100%; text-align: center; font-size: 50px; font-family: 'Great Vibes'; font-weight: bolder;">
+                <span id="timeDated" ></span>
+            </span>
+            <canvas id="pinkboard" width="500" height="500">
+                <span id="timeDated"></span>
+            </canvas>
+        </div> -->
+    </div>
+    <!-- Chat End -->
+
 
     <!-- Event Start -->
-    <div class="container-fluid py-5" id="event">
+    <!-- <div class="container-fluid py-5" id="event">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
@@ -399,12 +462,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Event End -->
 
 
     <!-- Friends & Family Start -->
-    <div class="container-fluid py-5" id="family">
+    <!-- <div class="container-fluid py-5" id="family">
         <div class="container pt-5 pb-3">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Friends & Family</h6>
@@ -512,12 +575,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Friends & Family End -->
 
 
     <!-- RSVP Start -->
-    <div class="container-fluid py-5" id="rsvp" style="display: none;">
+    <!-- <div class="container-fluid py-5" id="rsvp" style="display: none;">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
@@ -565,7 +628,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- RSVP End -->
 
 
@@ -622,6 +685,7 @@
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
@@ -632,6 +696,8 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/heart.js"></script>
+    <script src="js/hidden.js"></script>
+    <script src="js/hidden_content.js"></script>
 </body>
 
 </html>
