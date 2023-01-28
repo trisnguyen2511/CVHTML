@@ -45,9 +45,10 @@
       )
     })
 
-    $("#videoModal").on("hide.bs.modal", function (e) {
-      $("#video").attr("src", null)
-    })
+    //background vid
+    // $("#videoModal").on("hide.bs.modal", function (e) {
+    //   $("#video").attr("src", null)
+    // })
   })
 
   // Scroll to Bottom
