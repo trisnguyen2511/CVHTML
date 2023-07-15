@@ -10,7 +10,8 @@ var inputContainer = document.getElementsByClassName("codeInput-container")
 btn.addEventListener("onChange", validate)
 
 function validate() {
-  if (input.value.toLowerCase() == "081222") {
+  // if (input.value.toLowerCase() == "081222") {
+  if (input.value.toLowerCase() == process.env.PASSWORD_KEY) {
     // No need to add a "show" class. Just remove the "hidden" class.
     div.classList.remove("hidden")
 
@@ -27,6 +28,7 @@ function validate() {
 
 function validate(value) {
   if (value == process.env.PASSWORD_KEY) {
+    // setkey
     // No need to add a "show" class. Just remove the "hidden" class.
     div.classList.remove("hidden")
 
