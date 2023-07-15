@@ -26,7 +26,7 @@ function validate() {
 }
 
 function validate(value) {
-  if (value == "081222") {
+  if (value == process.env.PASSWORD_KEY) {
     // No need to add a "show" class. Just remove the "hidden" class.
     div.classList.remove("hidden")
 
